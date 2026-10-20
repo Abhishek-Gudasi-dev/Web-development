@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1><span>Fill the details as following</span></h1>
+  </header>
+
+  <main>
+    <form action="/server">
+      <div>
+        <label for="text">Username</label>
+        <input type="text" id="text" placeholder="enter your name" name="username">
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="enter password" name="pass">
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" placeholder="enter age" name="age">
+      </div>
+      <div>
+        <label for="dob">Date of birth</label>
+        <input type="date" id="dob" placeholder="enter DOB" name="dob">
+      </div>
+      <div>
+        <label for="color">Favourite Color</label>
+        <input type="color" id="color" placeholder="select color" name="favcol">
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="enter email" name="email">
+      </div>
+      <div>
+        <input type="checkbox" id="adult" name="adult" value="18+" checked>
+        <label for="adult">18+</label>
+      </div>
+      <div>
+        <input type="checkbox" id="young" name="young" value="60-" checked>
+        <label for="young">60-</label>
+      </div>
+      <div>
+        <label for="gender">Gender</label>
+        <input type="radio" id="gender" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Others">Others
+      </div>
+      <div>
+        <label for="iq">Your IQ level</label>
+        <input type="range" id="iq" name="iq" step="10" min="0" max="200" value="50">
+      </div>
+      <div>
+        <select name="branch">
+          <option value="cse">CSE</option>
+          <option value="aiml">AIML</option>
+          <option value="enc">E&C</option>
+          <option value="mechanical">Mechanical</option>
+          <option value="civil">Civil</option>
+          <option value="default" selected>Select your branch</option>
+        </select>
+      </div>
+      <div>
+        <textarea name="intro" maxlength="250" placehoder="enter something special about yourself"></textarea>
+      </div>
+      <div>
+        <input type="button" value="Click me">
+      </div>
+      <div>
+        <input type="submit">
+      </div>
+      <div>
+        <input type="reset" value="Reset">
+      </div>
+
+    </form>
+  </main>
+</body>
+
+</html> 
