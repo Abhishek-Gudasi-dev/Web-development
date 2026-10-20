@@ -1,0 +1,54 @@
+* {
+    background-color: pink;
+}
+
+div[id="face"] {
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    border: 10px solid orange;
+    border-radius: 50%;
+    position: relative;
+}
+
+div[id="mouth"] {
+    height: 120px;
+    width: 190px;
+    background-color: black;
+    position: absolute;
+    top: 200px;
+    left: 105px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+div[id="set"] {
+    height: 85px;
+    width: 220px;
+    background-color: yellow;
+    position: absolute;
+    top: 199px;
+    left: 90px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+div[id="left-eye"] {
+    height: 65px;
+    width: 65px;
+    background-color: black;
+    position: absolute;
+    top: 120px;
+    left: 87px;
+    border-radius: 50%;
+}
+
+div[id="right-eye"] {
+    height: 65px;
+    width: 65px;
+    background-color: black;
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    border-radius: 50%;
+}
