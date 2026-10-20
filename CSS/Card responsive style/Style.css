@@ -1,0 +1,29 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+h1{
+  text-align:center;
+  font-size:50px;
+  font-weight:bolder;
+}
+#Cards{
+  display:flex;
+  justify-content:space-evenly;
+}
+.Card{
+  padding:10px;
+  margin:10px;
+  width:480px;
+  border:2px solid black;
+  border-radius:30px;
+}
+img{
+  width:100%;
+  border-radius:30px;
+}
+@media (max-width:550px){
+  #Cards{
+    flex-wrap:wrap;
+  }
+}
